@@ -458,5 +458,17 @@
   },
   "permission": {
     "mcp_*": "ask"
+  },
+  "mcp": {
+    "browser-harness": {
+      "type": "local",
+      "command": [
+        "/root/.local/bin/uvx",
+        "--from",
+        "browser-harness[mcp]",
+        "browser-harness-mcp"
+      ],
+      "enabled": true
+    }
   }
 }
